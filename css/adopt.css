@@ -1,0 +1,63 @@
+/* adopt select */
+.pet-inactive {
+  filter: opacity(30%);
+}
+
+/* adoption lists */
+.adoption,
+.contact-form {
+  margin-top: 7%;
+}
+
+.adoption-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 4vw;
+  column-gap: 3vw;
+  margin-top: 2vw;
+}
+
+
+.item-img img {
+  border-radius: 10px;
+}
+
+.pet-title {
+  display: flex;
+  gap: 1vw;
+  margin-bottom: 1.2vw
+}
+
+.pet-price {
+  margin-left: auto;
+}
+
+.pet-title h5 {
+  font-size: 1.2vw;
+  color: #5b9a8b;
+}
+
+.basic-info {
+  font-size: 1.2vw;
+  line-height: 1.8vw;
+}
+
+/* contact form */
+.contact-form {
+  height: 20vw;
+  background-color: #eef5f3;
+}
+
+
+
+/* set responsive */
+@media only screen and (max-width: 770px) {
+  .adoption-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .item-img {
+    width: 40vw;
+  }
+}

@@ -1,0 +1,11 @@
+/* main */
+.blog-box {
+  margin-top: 7%;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6vw;
+  margin-top: 4vw;
+}

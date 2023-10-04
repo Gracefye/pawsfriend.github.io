@@ -1,0 +1,182 @@
+/* item lists */
+.deals,
+.toys,
+.adopt,
+.adopt-deals,
+.blog,
+.location,
+.bottom-img {
+  position: relative;
+  margin-top: 7%;
+}
+
+.arrow-l,
+.arrow-r {
+  display: none;
+  position: absolute;
+  top: 9vw;
+  z-index: 2;
+}
+
+.arrow-l {
+  left: -15px;
+}
+
+.arrow-r {
+  right: -15px;
+}
+
+.lists-box a i {
+  background-color: #5b9a8b;
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 6px;
+}
+
+.item-lists {
+  position: relative;
+  display: flex;
+  gap: 2vw;
+  overflow: auto;
+}
+
+.item {
+  width: 20vw;
+}
+
+.item-img {
+  position: relative;
+  margin-bottom: 1.4vw;
+}
+
+.item-img img {
+  width: 100%;
+}
+
+.deal-label,
+.sales-label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px 8px;
+  color: #fff;
+  font-size: 0.8vw;
+}
+
+.deal-label {
+  background-color: #c81623;
+}
+
+.sales-label {
+  background-color: #F58A0D;
+}
+
+.price {
+  font-size: 1vw;
+  font-weight: 700;
+  margin-top: 0.4vw;
+}
+
+/* adopt pets */
+.adopt-lists {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vw;
+}
+
+.adopt-pet {
+  position: relative;
+  width: 24vw;
+}
+
+.adopt-pet img {
+  width: 100%;
+  border-radius: 50%
+}
+
+.adopt-title {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+/* adopt deals */
+.adopt-deals {
+  display: flex;
+}
+
+.adopt-d-img {
+  width: 50%;
+}
+
+.adopt-d-img img {
+  width: 100%;
+}
+
+.adopt-d-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* gap: 2vw; */
+  align-items: center;
+  width: 50%;
+  background-color: #5b9a8b;
+}
+
+.adopt-d-info h2 {
+  margin-top: 2vw;
+  font-size: 2vw;
+  color: #fff;
+}
+
+.adopt-d-info em {
+  font-size: 2.2vw;
+  font-weight: 700;
+  color: #f7e987;
+}
+
+.adopt-d-info p {
+  margin-left: auto;
+  padding-right: 1vw;
+  color: #eee;
+}
+
+/* blog section */
+.blog-lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3vw;
+  column-gap: 6vw;
+
+}
+
+.b-card1,
+.b-card3 {
+  justify-self: start;
+}
+
+.b-card2,
+.b-card4 {
+  justify-self: end;
+}
+
+.blog-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1vw;
+}
+
+/* location section */
+.location-card {
+  height: 20vw;
+  background-color: rgb(183, 221, 183);
+}
+
+/* set responsive */
+@media only screen and (max-width:770px) {
+  .item {
+    width: 26vw;
+  }
+}

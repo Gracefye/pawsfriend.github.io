@@ -1,0 +1,30 @@
+.about-us {
+  display: flex;
+  gap: 3vw;
+  margin-top: 7%;
+}
+
+.about-img {
+  flex: 1;
+}
+
+.about-img img {
+  width: 100%;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: #666;
+}
+
+.about-info p {
+  font-size: 1.4vw;
+  line-height: 2vw;
+}
+
+.about-info a {
+  align-self: center;
+  margin-top: 4vw;
+}
