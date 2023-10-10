@@ -1,0 +1,102 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+
+.detail-main {
+  display: flex;
+  gap: 2vw;
+  padding-bottom: 2vw;
+}
+
+.detail-img {
+  flex: 0.8;
+}
+
+.detail-img img {
+  width: 100%;
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1vw;
+}
+
+/* details title */
+
+.detail-title h4 {
+  font-weight: 700;
+}
+
+.detail-cate {
+  color: #5b9a8b;
+  font-size: 1vw;
+  margin-top: 1vw;
+}
+
+.detail-price th {
+  width: 10vw;
+}
+
+.detail-price th,
+.detail-price td {
+  text-align: left;
+  line-height: 1.8vw;
+}
+
+.detail-price .price {
+  font-size: 1.4vw;
+  padding-bottom: 1vw;
+}
+
+.detail-main,
+.detail-title,
+.detail-price,
+.detail-desc,
+.detail-list {
+  border-bottom: 2px solid #eee;
+}
+
+.detail-feature h5,
+.detail-desc h5,
+.detail-list h5 {
+  font-weight: 700;
+  margin-bottom: 1vw;
+}
+
+.detail-feature ul li {
+  list-style-type: disc;
+  margin-left: 2vw;
+  line-height: 1.8vw;
+}
+
+.add-cart {
+  width: 20vw;
+  align-self: center;
+  margin-top: auto;
+}
+
+/* product description */
+.detail-desc,
+.detail-list {
+  margin-top: 2vw;
+}
+
+.detail-desc p,
+.list-info {
+  padding: 0 2vw 2vw;
+  line-height: 1.8vw;
+  font-size: 1vw;
+}
+
+.list-info {
+  text-align: left;
+  line-height: 1.6vw;
+}
+
+.list-info tr td {
+  padding-left: 2vw;
+}

@@ -1,3 +1,8 @@
+/* banner */
+.banner video {
+  width: 100%;
+}
+
 /* item lists */
 .deals,
 .toys,
@@ -37,7 +42,7 @@
   position: relative;
   display: flex;
   gap: 2vw;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .item {

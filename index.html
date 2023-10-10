@@ -57,17 +57,21 @@
     <!-- header section end -->
     <!-- banner section start -->
     <div class="banner">
-      <img src="./images/banner-home.jpeg" alt="a cat on a tree">
+      <video poster="./images/banner-home.jpeg" muted="muted" controls="controls" loop="loop">
+        <source src="./media/cat.mp4" type="video/mp4">
+        <source src="./media/cat.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
     </div>
     <!-- banner section end -->
 
     <!-- deals lists start -->
-    <div class="deals main-w">
+    <div id="deals-box" class="deals main-w">
       <h3>Deals for Your Pets</h3>
-      <div id="deals-box" class="lists-box">
+      <div class="lists-box">
         <a id="deals-l" class="arrow-l" href="javascript:;"><i class="fa-solid fa-chevron-left"></i></a>
         <a id="deals-r" class="arrow-r" href="javascript:;"><i class="fa-solid fa-chevron-right"></i></a>
-        <ul class="item-lists">
+        <ul id="deals-lists" class="item-lists">
           <li>
             <div class="item">
               <a href="#">
@@ -167,7 +171,6 @@
         </ul>
       </div>
     </div>
-
     <!-- deals lists end -->
 
     <!-- toys lists start -->
@@ -176,7 +179,7 @@
       <div id="toys-box" class="lists-box">
         <a id="toys-l" class="arrow-l" href="javascript:;"><i class="fa-solid fa-chevron-left"></i></a>
         <a id="toys-r" class="arrow-r" href="javascript:;"><i class="fa-solid fa-chevron-right"></i></a>
-        <ul class="item-lists">
+        <ul id="toys-lists" class="item-lists">
           <li>
             <div class="item">
               <a href="#">
@@ -401,8 +404,7 @@
     <!-- footer section end -->
   </div>
 
-  <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script> -->
-  <script src="./js/index.js"></script>
+  <script src="./js/scroll.js"></script>
 </body>
 
 </html>

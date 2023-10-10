@@ -4,6 +4,7 @@
   padding: 0;
   /* css3 box model */
   box-sizing: border-box;
+  color: #333;
 }
 
 em,
