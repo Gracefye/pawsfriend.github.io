@@ -1,0 +1,17 @@
+.slideshow {
+  position: relative;
+}
+
+
+.slideshow ul {
+  width: 300%;
+  display: flex;
+}
+
+.slideshow ul li {
+  flex: 0.33;
+}
+
+.slideshow ul li img {
+  width: 100%;
+}
