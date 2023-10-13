@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/Loginstyle.css">
+  <link rel="stylesheet" href="./css/Loginstyle.css">
   <title>Login</title>
 </head>
+
 <body>
   <div class="box">
     <div class="container">
@@ -15,11 +17,15 @@
       </div>
       <form action="Index.html" method="post">
         <div class="input-field">
-            <input type="text" class="input" placeholder="Username" name="username" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Please enter a valid username in the format: username@domain.com" required>
+          <input type="text" class="input" placeholder="Username" name="username"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            title="Please enter a valid username in the format: username@domain.com" required>
           <i class='bx bx-user'></i>
         </div>
         <div class="input-field">
-          <input type="password" class="input" placeholder="Password" name="password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" title="Minimum eight characters, at least one letter and one number" required>
+          <input type="password" class="input" placeholder="Password" name="password"
+            pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+            title="Minimum eight characters, at least one letter and one number" required>
           <i class='bx bx-lock-alt'></i>
         </div>
         <div class="input-field">
@@ -39,4 +45,5 @@
     </div>
   </div>
 </body>
+
 </html>

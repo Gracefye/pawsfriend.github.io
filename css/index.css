@@ -175,8 +175,21 @@
 
 /* location section */
 .location-card {
-  height: 20vw;
-  background-color: rgb(183, 221, 183);
+  display: grid;
+  grid-template-columns: 60% auto;
+  gap: 2vw;
+}
+
+.map-img {
+  grid-row: 1/ 3;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.contact-info p {
+  line-height: 2vw;
 }
 
 /* set responsive */

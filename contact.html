@@ -12,7 +12,9 @@
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/adopt.css">
   <link rel="stylesheet" href="./css/contact.css">
-  <link rel="stylesheet" href="./css/adopt.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
 </head>
 
 <body>
@@ -63,59 +65,63 @@
     <!-- banner section end -->
 
     <!-- contact form start -->
-    <div class="contact">
-      <h1>Contact Us for Adoption</h1>
-    </div>
-    <div class="input">
-      <div class="input-container">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" />
-      </div>
-      <div class="input-container">
-        <label for="phone">Phone</label>
-        <input type="number" name="phone" id="phone" />
-      </div>
-      <div class="input-container">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" />
-      </div>
-      <div class="input-container">
-        <label for="message">Message</label>
-        <input type="text" name="message" id="message"  placeholder="Have Questions to Consult?"/>
-      </div>  
-      <div class="button-container">
-        <input class="button" type="button" value="Submit" />
+    <div class="contact-form">
+      <h3>Contact Us for Adoption</h3>
+
+      <div class="input">
+        <div class="basic-info">
+          <div class="input-container">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="input-container">
+            <label for="phone">Phone</label>
+            <input type="number" name="phone" id="phone" />
+          </div>
+          <div class="input-container">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+        </div>
+        <div class="input-container">
+          <label for="message">Message</label>
+          <input type="text" name="message" id="message" placeholder="Have Questions to Consult?" />
+        </div>
+        <input class="btn-green contact-btn" type="button" value="SUBMIT" />
       </div>
     </div>
     <!-- contact form end -->
-    <div style="margin: 20px 0px 0px 20px">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.0972712533458!2d-80.52115522371467!3d43.47944037111089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf38c63ddd43b%3A0x1f0a76d2e3d25b4c!2s108%20University%20Ave%2C%20Waterloo%2C%20ON%20N2J%202W2!5e0!3m2!1sen!2sca!4v1696429173830!5m2!1sen!2sca"
-        width="800"
-        height="530"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+    <!-- location start -->
+    <div class="location main-w">
+      <h3>Our Location</h3>
+      <div class="location-card">
+        <!-- location start -->
+        <div class="map-img">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.0972712533458!2d-80.52115522371467!3d43.47944037111089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf38c63ddd43b%3A0x1f0a76d2e3d25b4c!2s108%20University%20Ave%2C%20Waterloo%2C%20ON%20N2J%202W2!5e0!3m2!1sen!2sca!4v1696429173830!5m2!1sen!2sca"
+            style="border: 0" width="100%" height="100%" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="image-container">
+          <img src="./images/location-store.jpg" alt="shop's board">
+        </div>
+        <!--contact info-->
+        <div class="contact-info">
+          <p><strong>LOCATION:</strong> 108 University Ave, Waterloo, ON N2J 2W2</p>
+          <p><strong>PHONE:</strong> (519) 999-9999</p>
+          <p>
+            <strong>EMAIL:</strong>
+            <a href="mailto:petrescue@gmail.com">petrescue@gmail.com</a>
+          </p>
+          <p><strong>HOURS:</strong></p>
+          <ul>
+            <li>Monday - Friday: 9am - 7pm</li>
+            <li>Saturday & Sunday: 10am - 5pm</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="image-container">
-      <img src="/images/location-store.jpg" alt="shop's board" width="600" />
-    </div>
-    <!--contact info-->
-    <div class="contact-info">
-      <p><strong>LOCATION:</strong> 108 University Ave, Waterloo, ON N2J 2W2</p>
-      <p><strong>PHONE:</strong> (519) 999-9999</p>
-      <p>
-        <strong>EMAIL:</strong>
-        <a href="mailto:petrescue@gmail.com">petrescue@gmail.com</a>
-      </p>
-      <p><strong>HOURS:</strong></p>
-      <ul>
-        <li>Monday - Friday: 9am - 7pm</li>
-        <li>Saturday & Sunday: 10am - 5pm</li>
-      </ul>
-    </div>
+    <!-- location end -->
 
     <!-- bottom img section -->
     <div class="bottom-img">
