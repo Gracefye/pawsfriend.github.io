@@ -1,0 +1,90 @@
+.p-div {
+  background-color: #eef5f3;
+  margin: 0px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2rem;
+  
+}
+
+.div1 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.div2 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.txt {
+  display: grid;
+}
+
+input[type="checkbox"] {
+  height: 30px;
+  width: 30px;
+  margin-top: 275px;
+}
+
+.div1 img {
+  height: 300px;
+  padding: 15px 25px 12px 10px;
+}
+.div2 img {
+  height: 300px;
+  width: 300px;
+  padding: 15px 25px 12px 10px;
+  background-position:cover;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.options p:nth-child(2n) {
+  color: #5b9a8b;
+}
+
+.db {
+  display: flex;
+  justify-content: center;
+}
+
+.db-options {
+  padding: 0px 20px 0px 20px;
+  border-radius: 10px;
+  background-color: #f4efef;
+  border-color: #707070;
+}
+
+.cart-item {
+  display: flex;
+}
+
+.cart-item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 0px 2rem 0px;
+}
+
+.select-menu {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+button{background-color:#5B9A8B;
+    border-color: #5B9A8B;
+    border-radius: 5px;
+    padding: 10px 100px 10px 100px;
+    margin-top: 30px;
+color: white;
+font-size: 20px;}
+
+.btn{
+display: flex;
+align-items: center;
+padding-bottom:3rem ;
+justify-content:center;}
