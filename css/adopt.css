@@ -68,6 +68,7 @@ body {
   padding: 0;
 }
 
+
 h1 {
   font-size: 24px;
 }
@@ -87,6 +88,7 @@ input {
   width: 40%;
   margin-left: 880px;
   color: rgb(87, 87, 87);
+  padding-bottom: 2rem;
 }
 
 .input-container {
@@ -119,4 +121,8 @@ padding: 10px 100px 10px 100px;
 margin-top: 30px;
 color: white;
 font-size: 20px;
+}
+
+.location_container{padding: bottom 0px;
+
 }
